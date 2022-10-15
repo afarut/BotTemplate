@@ -1,6 +1,6 @@
 from aiogram import executor
 from loader import bot, dp
-import handlers
+import handlers, filters
 from config import ADMIN
 import asyncio
 import data.db as db
